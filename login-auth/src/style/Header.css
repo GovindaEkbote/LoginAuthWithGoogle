@@ -1,0 +1,49 @@
+/* General header styling */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box; /* Ensure padding is included in the total width */
+  }
+  
+  /* Styling for the navigation bar */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Styling for the heading */
+  h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  /* Styling for the navigation links */
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  li {
+    margin: 0 10px;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  a.active {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  a:hover {
+    color: #ddd;
+  }
+  
